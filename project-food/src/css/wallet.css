@@ -1,0 +1,83 @@
+@import "../libs/comment.css";
+
+.warp{
+    width: 100%;
+    height: 100%;
+}
+.warp .money
+{
+    width:100%;
+    height:0.5rem;
+    background: #1A1A1A;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height:0.5rem;
+    display: -webkit-flex;
+}
+.warp .money li
+{
+    flex-direction: row;
+    -webkit-flex: 1;
+}
+.warp .money li:nth-child(1)
+{
+    padding-left: 0.1rem;
+    font-family:"iconfont";
+}
+.warp .money li:nth-child(2)
+{
+    text-align: center;
+}
+.warp .bird_container
+{
+    width:100%;
+    height:100%;
+    background: #313131;
+    font-size:0.16rem;
+    color: #fff;
+}
+.warp .bird_container .bird
+{
+    width:100%;
+    display: -webkit-flex;
+}
+.warp .bird_container .bird li
+{
+    flex-direction: row;
+    -webkit-flex: 1;
+    text-align: center;
+}
+.warp .bird_container .bird li span
+{
+    display: inline-block;
+    width: .81rem;
+    height: .81rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: .1rem auto;
+}
+.warp .bird_container .bird li i
+{
+    display: inline-block;
+    padding: 0.05rem 0 0.15rem 0;
+}
+.warp .bird_container .list
+{
+    display: -webkit-flex;
+}
+.warp .bird_container .list li
+{
+    flex-direction:row;
+    -webkit-flex: 1;
+    text-align: center;
+}
+.warp .bird_container .list li span
+{
+    font-family:"iconfont";
+    display: inline-block;
+    font-size: 0.4rem;
+}
+.warp .bird_container .list li i
+{
+    display: block;
+}

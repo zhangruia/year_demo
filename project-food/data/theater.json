@@ -1,0 +1,1691 @@
+{
+  "cover": "./images/d1.jpg",
+  "movie_theater": [
+    {
+      "name": "星美国际",
+      "address": "上地店",
+      "detailed address": "北京市海淀区上地七街150号",
+      "Starting price": 55,
+      "Telephone": "010-338927",
+      "distance": 3.5,
+      "discount": [
+        "3D",
+        "优惠",
+        "团"
+      ],
+      "film": [
+        {
+          "img": "./images/c7.jpg",
+          "film_name": "爱丽丝梦游仙境",
+          "want": 876500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "16:55",
+                "price": 30
+              },
+              {
+                "startTime": "18:55",
+                "price": 40
+              },
+              {
+                "startTime": "20:15",
+                "price": 35
+              },
+              {
+                "startTime": "21:30",
+                "price": 30
+              },
+              {
+                "startTime": "22:15",
+                "price": 30
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 30
+              },
+              {
+                "startTime": "9:25",
+                "price": 35
+              },
+              {
+                "startTime": "11:15",
+                "price": 40
+              },
+              {
+                "startTime": "1:30",
+                "price": 45
+              },
+              {
+                "startTime": "3:15",
+                "price": 30
+              },
+              {
+                "startTime": "6:15",
+                "price": 40
+              },
+              {
+                "startTime": "8:30",
+                "price": 45
+              },
+              {
+                "startTime": "10:15",
+                "price": 25
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 38
+              },
+              {
+                "startTime": "11:05",
+                "price": 28
+              },
+              {
+                "startTime": "2:15",
+                "price": 35
+              },
+              {
+                "startTime": "3:40",
+                "price": 39
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              },
+              {
+                "startTime": "8:00",
+                "price": 80
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c8.jpg",
+          "film_name": "澳门风云",
+          "want": 609500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 75
+              },
+              {
+                "startTime": "20:55",
+                "price": 70
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 80
+              },
+              {
+                "startTime": "16:15",
+                "price": 67
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 68
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c9.jpg",
+          "film_name": "功夫熊猫3",
+          "want": 780909,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 55
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 40
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 60
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "23:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c6.jpg",
+          "film_name": "X战警2",
+          "want": 666000,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:05",
+                "price": 45
+              },
+              {
+                "startTime": "22:55",
+                "price": 48
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:55",
+                "price": 40
+              },
+              {
+                "startTime": "12:25",
+                "price": 45
+              },
+              {
+                "startTime": "19:00",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "7:55",
+                "price": 45
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "22:15",
+                "price": 40
+              },
+              {
+                "startTime": "23:40",
+                "price": 59
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a7.jpg",
+          "film_name": "超脑48小时",
+          "want": 1000980,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 60
+              },
+              {
+                "startTime": "20:55",
+                "price": 35
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:15",
+                "price": 65
+              },
+              {
+                "startTime": "10:05",
+                "price": 49
+              },
+              {
+                "startTime": "12:00",
+                "price": 30
+              },
+              {
+                "startTime": "14:15",
+                "price": 59
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "6:55",
+                "price": 45
+              },
+              {
+                "startTime": "13:05",
+                "price": 68
+              },
+              {
+                "startTime": "17:15",
+                "price": 70
+              },
+              {
+                "startTime": "22:30",
+                "price": 35
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a5.jpg",
+          "film_name": "分歧者3",
+          "want": 986500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 100
+              },
+              {
+                "startTime": "21:55",
+                "price": 89
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 79
+              },
+              {
+                "startTime": "15:25",
+                "price": 80
+              },
+              {
+                "startTime": "19:30",
+                "price": 90
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "11:55",
+                "price": 80
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 100
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c4.jpg",
+          "film_name": "惊天魔盗团",
+          "want": 865021,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 45
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 45
+              },
+              {
+                "startTime": "12:25",
+                "price": 40
+              },
+              {
+                "startTime": "17:30",
+                "price": 45
+              },
+              {
+                "startTime": "20:15",
+                "price": 47
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "8:35",
+                "price": 48
+              },
+              {
+                "startTime": "11:05",
+                "price": 55
+              },
+              {
+                "startTime": "18:15",
+                "price": 45
+              },
+              {
+                "startTime": "21:40",
+                "price": 50
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "橙天嘉禾",
+      "address": "上地店",
+      "detailed address": "北京市海淀区上地南口华联商厦",
+      "Starting price": 27.3,
+      "Telephone": "010-62667799",
+      "distance": 1.8,
+      "discount": [
+        "3D",
+        "优惠"
+      ],
+      "film": [
+        {
+          "img": "./images/c8.jpg",
+          "film_name": "澳门风云",
+          "want": 609500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 75
+              },
+              {
+                "startTime": "20:55",
+                "price": 70
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 80
+              },
+              {
+                "startTime": "16:15",
+                "price": 67
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 68
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c7.jpg",
+          "film_name": "爱丽丝梦游仙境",
+          "want": 876500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "16:55",
+                "price": 30
+              },
+              {
+                "startTime": "18:55",
+                "price": 40
+              },
+              {
+                "startTime": "20:15",
+                "price": 35
+              },
+              {
+                "startTime": "21:30",
+                "price": 30
+              },
+              {
+                "startTime": "22:15",
+                "price": 30
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 30
+              },
+              {
+                "startTime": "9:25",
+                "price": 35
+              },
+              {
+                "startTime": "11:15",
+                "price": 40
+              },
+              {
+                "startTime": "1:30",
+                "price": 45
+              },
+              {
+                "startTime": "3:15",
+                "price": 30
+              },
+              {
+                "startTime": "6:15",
+                "price": 40
+              },
+              {
+                "startTime": "8:30",
+                "price": 45
+              },
+              {
+                "startTime": "10:15",
+                "price": 25
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 38
+              },
+              {
+                "startTime": "11:05",
+                "price": 28
+              },
+              {
+                "startTime": "2:15",
+                "price": 35
+              },
+              {
+                "startTime": "3:40",
+                "price": 39
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              },
+              {
+                "startTime": "8:00",
+                "price": 80
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a7.jpg",
+          "film_name": "超脑48小时",
+          "want": 1000980,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 60
+              },
+              {
+                "startTime": "20:55",
+                "price": 35
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:15",
+                "price": 65
+              },
+              {
+                "startTime": "10:05",
+                "price": 49
+              },
+              {
+                "startTime": "12:00",
+                "price": 30
+              },
+              {
+                "startTime": "14:15",
+                "price": 59
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "6:55",
+                "price": 45
+              },
+              {
+                "startTime": "13:05",
+                "price": 68
+              },
+              {
+                "startTime": "17:15",
+                "price": 70
+              },
+              {
+                "startTime": "22:30",
+                "price": 35
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c9.jpg",
+          "film_name": "功夫熊猫3",
+          "want": 780909,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 55
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 40
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 60
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "23:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c6.jpg",
+          "film_name": "X战警2",
+          "want": 666000,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:05",
+                "price": 45
+              },
+              {
+                "startTime": "22:55",
+                "price": 48
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:55",
+                "price": 40
+              },
+              {
+                "startTime": "12:25",
+                "price": 45
+              },
+              {
+                "startTime": "19:00",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "7:55",
+                "price": 45
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "22:15",
+                "price": 40
+              },
+              {
+                "startTime": "23:40",
+                "price": 59
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a5.jpg",
+          "film_name": "分歧者3",
+          "want": 986500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 100
+              },
+              {
+                "startTime": "21:55",
+                "price": 89
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 79
+              },
+              {
+                "startTime": "15:25",
+                "price": 80
+              },
+              {
+                "startTime": "19:30",
+                "price": 90
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "11:55",
+                "price": 80
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 100
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c4.jpg",
+          "film_name": "惊天魔盗团",
+          "want": 865021,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 45
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 45
+              },
+              {
+                "startTime": "12:25",
+                "price": 40
+              },
+              {
+                "startTime": "17:30",
+                "price": 45
+              },
+              {
+                "startTime": "20:15",
+                "price": 47
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "8:35",
+                "price": 48
+              },
+              {
+                "startTime": "11:05",
+                "price": 55
+              },
+              {
+                "startTime": "18:15",
+                "price": 45
+              },
+              {
+                "startTime": "21:40",
+                "price": 50
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "大地影城",
+      "address": "悦秀店",
+      "detailed address": "北京市海淀区悦秀路99号",
+      "Starting price": 25.8,
+      "Telephone": "010-60603728",
+      "distance": 3.4,
+      "discount": [
+        "3D",
+        "优惠",
+        "退票"
+      ],
+      "film": [
+        {
+          "img": "./images/c8.jpg",
+          "film_name": "澳门风云",
+          "want": 609500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 75
+              },
+              {
+                "startTime": "20:55",
+                "price": 70
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 80
+              },
+              {
+                "startTime": "16:15",
+                "price": 67
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 68
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c6.jpg",
+          "film_name": "X战警2",
+          "want": 666000,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:05",
+                "price": 45
+              },
+              {
+                "startTime": "22:55",
+                "price": 48
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:55",
+                "price": 40
+              },
+              {
+                "startTime": "12:25",
+                "price": 45
+              },
+              {
+                "startTime": "19:00",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "7:55",
+                "price": 45
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "22:15",
+                "price": 40
+              },
+              {
+                "startTime": "23:40",
+                "price": 59
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c7.jpg",
+          "film_name": "爱丽丝梦游仙境",
+          "want": 876500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "16:55",
+                "price": 30
+              },
+              {
+                "startTime": "18:55",
+                "price": 40
+              },
+              {
+                "startTime": "20:15",
+                "price": 35
+              },
+              {
+                "startTime": "21:30",
+                "price": 30
+              },
+              {
+                "startTime": "22:15",
+                "price": 30
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 30
+              },
+              {
+                "startTime": "9:25",
+                "price": 35
+              },
+              {
+                "startTime": "11:15",
+                "price": 40
+              },
+              {
+                "startTime": "1:30",
+                "price": 45
+              },
+              {
+                "startTime": "3:15",
+                "price": 30
+              },
+              {
+                "startTime": "6:15",
+                "price": 40
+              },
+              {
+                "startTime": "8:30",
+                "price": 45
+              },
+              {
+                "startTime": "10:15",
+                "price": 25
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 38
+              },
+              {
+                "startTime": "11:05",
+                "price": 28
+              },
+              {
+                "startTime": "2:15",
+                "price": 35
+              },
+              {
+                "startTime": "3:40",
+                "price": 39
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              },
+              {
+                "startTime": "8:00",
+                "price": 80
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a5.jpg",
+          "film_name": "分歧者3",
+          "want": 986500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 100
+              },
+              {
+                "startTime": "21:55",
+                "price": 89
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 79
+              },
+              {
+                "startTime": "15:25",
+                "price": 80
+              },
+              {
+                "startTime": "19:30",
+                "price": 90
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "11:55",
+                "price": 80
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 100
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a7.jpg",
+          "film_name": "超脑48小时",
+          "want": 1000980,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 60
+              },
+              {
+                "startTime": "20:55",
+                "price": 35
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:15",
+                "price": 65
+              },
+              {
+                "startTime": "10:05",
+                "price": 49
+              },
+              {
+                "startTime": "12:00",
+                "price": 30
+              },
+              {
+                "startTime": "14:15",
+                "price": 59
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "6:55",
+                "price": 45
+              },
+              {
+                "startTime": "13:05",
+                "price": 68
+              },
+              {
+                "startTime": "17:15",
+                "price": 70
+              },
+              {
+                "startTime": "22:30",
+                "price": 35
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c9.jpg",
+          "film_name": "功夫熊猫3",
+          "want": 780909,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 55
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 40
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 60
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "23:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c4.jpg",
+          "film_name": "惊天魔盗团",
+          "want": 865021,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 45
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 45
+              },
+              {
+                "startTime": "12:25",
+                "price": 40
+              },
+              {
+                "startTime": "17:30",
+                "price": 45
+              },
+              {
+                "startTime": "20:15",
+                "price": 47
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "8:35",
+                "price": 48
+              },
+              {
+                "startTime": "11:05",
+                "price": 55
+              },
+              {
+                "startTime": "18:15",
+                "price": 45
+              },
+              {
+                "startTime": "21:40",
+                "price": 50
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "保利龙旗",
+      "address": "回龙观店",
+      "detailed address": "北京市昌平区回龙观镇黄平路19号",
+      "Starting price": 32.8,
+      "Telephone": "010-82694321",
+      "distance": 5.0,
+      "discount": [
+        "4K",
+        "优惠"
+      ],
+      "film": [
+        {
+          "img": "./images/c7.jpg",
+          "film_name": "爱丽丝梦游仙境",
+          "want": 876500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "16:55",
+                "price": 30
+              },
+              {
+                "startTime": "18:55",
+                "price": 40
+              },
+              {
+                "startTime": "20:15",
+                "price": 35
+              },
+              {
+                "startTime": "21:30",
+                "price": 30
+              },
+              {
+                "startTime": "22:15",
+                "price": 30
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 30
+              },
+              {
+                "startTime": "9:25",
+                "price": 35
+              },
+              {
+                "startTime": "11:15",
+                "price": 40
+              },
+              {
+                "startTime": "1:30",
+                "price": 45
+              },
+              {
+                "startTime": "3:15",
+                "price": 30
+              },
+              {
+                "startTime": "6:15",
+                "price": 40
+              },
+              {
+                "startTime": "8:30",
+                "price": 45
+              },
+              {
+                "startTime": "10:15",
+                "price": 25
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 38
+              },
+              {
+                "startTime": "11:05",
+                "price": 28
+              },
+              {
+                "startTime": "2:15",
+                "price": 35
+              },
+              {
+                "startTime": "3:40",
+                "price": 39
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              },
+              {
+                "startTime": "8:00",
+                "price": 80
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a5.jpg",
+          "film_name": "分歧者3",
+          "want": 986500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 100
+              },
+              {
+                "startTime": "21:55",
+                "price": 89
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 79
+              },
+              {
+                "startTime": "15:25",
+                "price": 80
+              },
+              {
+                "startTime": "19:30",
+                "price": 90
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "11:55",
+                "price": 80
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 100
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c8.jpg",
+          "film_name": "澳门风云",
+          "want": 609500,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 75
+              },
+              {
+                "startTime": "20:55",
+                "price": 70
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 80
+              },
+              {
+                "startTime": "16:15",
+                "price": 67
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 68
+              },
+              {
+                "startTime": "14:05",
+                "price": 78
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "5:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c6.jpg",
+          "film_name": "X战警2",
+          "want": 666000,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:05",
+                "price": 45
+              },
+              {
+                "startTime": "22:55",
+                "price": 48
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:55",
+                "price": 40
+              },
+              {
+                "startTime": "12:25",
+                "price": 45
+              },
+              {
+                "startTime": "19:00",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "7:55",
+                "price": 45
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "22:15",
+                "price": 40
+              },
+              {
+                "startTime": "23:40",
+                "price": 59
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/a7.jpg",
+          "film_name": "超脑48小时",
+          "want": 1000980,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 60
+              },
+              {
+                "startTime": "20:55",
+                "price": 35
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "8:15",
+                "price": 65
+              },
+              {
+                "startTime": "10:05",
+                "price": 49
+              },
+              {
+                "startTime": "12:00",
+                "price": 30
+              },
+              {
+                "startTime": "14:15",
+                "price": 59
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "6:55",
+                "price": 45
+              },
+              {
+                "startTime": "13:05",
+                "price": 68
+              },
+              {
+                "startTime": "17:15",
+                "price": 70
+              },
+              {
+                "startTime": "22:30",
+                "price": 35
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c9.jpg",
+          "film_name": "功夫熊猫3",
+          "want": 780909,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "18:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 55
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "7:55",
+                "price": 65
+              },
+              {
+                "startTime": "10:25",
+                "price": 40
+              },
+              {
+                "startTime": "19:30",
+                "price": 60
+              },
+              {
+                "startTime": "22:15",
+                "price": 45
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "9:55",
+                "price": 60
+              },
+              {
+                "startTime": "14:05",
+                "price": 55
+              },
+              {
+                "startTime": "19:15",
+                "price": 65
+              },
+              {
+                "startTime": "21:40",
+                "price": 59
+              },
+              {
+                "startTime": "23:15",
+                "price": 30
+              }
+            ]
+          }
+        },
+        {
+          "img": "./images/c4.jpg",
+          "film_name": "惊天魔盗团",
+          "want": 865021,
+          "time": {
+            "5-17": [
+              {
+                "startTime": "19:10",
+                "price": 50
+              },
+              {
+                "startTime": "20:55",
+                "price": 45
+              }
+            ],
+            "5-18": [
+              {
+                "startTime": "10:55",
+                "price": 45
+              },
+              {
+                "startTime": "12:25",
+                "price": 40
+              },
+              {
+                "startTime": "17:30",
+                "price": 45
+              },
+              {
+                "startTime": "20:15",
+                "price": 47
+              }
+            ],
+            "5-19": [
+              {
+                "startTime": "8:35",
+                "price": 48
+              },
+              {
+                "startTime": "11:05",
+                "price": 55
+              },
+              {
+                "startTime": "18:15",
+                "price": 45
+              },
+              {
+                "startTime": "21:40",
+                "price": 50
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

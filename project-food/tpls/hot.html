@@ -1,0 +1,31 @@
+<div class="wrap iScroll">
+    <section>
+        <div class="movie" id="wrapper">
+            <div class="scroll" >
+                <div class="pullDown">
+                    <span class="pullDownLabel pullimg"></span>
+                </div>
+                <dl ng-repeat="item in main">
+                    <dt><img ng-src={{item.pic}} ></dt>
+                    <dd class="cen">
+                        <div class="title">
+                            <h3>{{item.title}}</h3>
+                            <div class="effect">
+                                <span ng-repeat="eff in item.effect">{{eff}}</span>
+                            </div>
+                        </div>
+                        <p>{{item.content}}<br>{{item.type}}！</p>
+                        <p>主演：<span>{{item.actor}}</span></p>
+                    </dd>
+                    <dd class="rit">
+                        <span>{{item.point}}</span>
+                        <button>购票</button>
+                    </dd>
+                </dl>
+                <div class="pullDown">
+                    <span class="pullDownLabel translate"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

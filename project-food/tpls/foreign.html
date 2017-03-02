@@ -1,0 +1,46 @@
+<div class="foreign-wrap iScroll">
+    <div class="foreign-top">
+
+        <div class="foreign-nav">
+            <ul>
+                <li><a href="javascript:void(0);" ng-class="cla[0]" ng-click="changeClass(0)">美国</a></li>
+                <li><a href="javascript:void(0);" ng-class="cla[1]" ng-click="changeClass(1)">英国</a></li>
+                <li><a href="javascript:void(0);" ng-class="cla[2]" ng-click="changeClass(2)">其他</a></li>
+            </ul>
+        </div>
+        <div class="blank"></div>
+    </div>
+    <div class="foreign-main" id="wrapper">
+        <div class="iscroll">
+
+            <div class="pullDown">
+                <span class="pullDownLabel translate"></span>
+            </div>
+
+            <div class="foreign-swipe-wrap ">
+
+                <div class="foreign-list" ng-repeat="use in main">
+                    <div class="foreign-left">
+                        <img ng-src={{use.pic}} alt="">
+                    </div>
+                    <div class="foreign-center">
+                        <h2><b>{{use.title}}</b><span ng-repeat=" mov in use.effect">{{mov}}</span></h2>
+                        <p>{{use.content}}</p>
+                        <p>{{use.type}}!</p>
+                        <p ng-if="use.actor">主演：{{use.actor}}</p>
+                    </div>
+                    <div class="foreign-right" ng-if="use.point">
+                        <p>{{use.point}}</p>
+                        <p>购票</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pullDown">
+                <span class="pullDownLabel translate"></span>
+            </div>
+        </div>
+    </div>
+</div>
+

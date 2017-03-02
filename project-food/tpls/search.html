@@ -1,0 +1,18 @@
+<div class="search">
+    <div class="sea_head">
+        <span class="back" ui-sref="index.cinema.hot"><img ng-src="./images/back@3x.png"></span>
+        <input type="text" ng-model="val" placeholder="请输入电影名，演员名">
+    </div>
+    <div class="hot_search">
+        <p>热门搜索</p>
+        <div class="search_sp search_sps">
+            <span ng-repeat="item in main.hot">{{item}}</span>
+        </div>
+    </div>
+    <div class="set_search">
+        <p>类型</p>
+        <div class="search_sp">
+            <span ng-repeat=" item in main.classification ">{{item}}</span>
+        </div>
+    </div>
+</div>

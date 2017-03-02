@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="city_head">
+        <span class="back" ui-sref="index.cinema.hot"><img ng-src="./images/back@3x.png"></span>
+        选择城市
+    </div>
+    <div class="city_main">
+        <div class="ding">
+            <p>定位城市</p>
+            <div class="cities_list">
+                <span>{{cityName}}</span>
+            </div>
+        </div>
+        <div class="hot_city">
+            <p>热门城市</p>
+            <div class="hot_cities">
+                <span ui-sref="index.cinema.hot" ng-repeat="val in main['hot city']" ng-click="cityEvent(val)" ng-class="{city_on:cityFun(val)}">{{val}}</span>
+            </div>
+        </div>
+        <div class="city_list">
+            <div class="num" ng-repeat="( i ,item) in main.net" >
+                <p ng-click="titleEvent(i)">{{i}}</p>
+                <div class="cities_list num_cities_list" ng-class="{title_on:titleFun(i)}" >
+                    <span ng-repeat="items in item" ng-click="cityEvent(items)" ng-class="{city_on:cityFun(items)}">{{items}}</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

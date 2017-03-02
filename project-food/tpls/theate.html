@@ -1,0 +1,24 @@
+<div class="theate">
+    <header>
+        <ul>
+            <li class="icon-font" ui-sref="city">北京 <span>&#xe662;</span></li>
+            <li>
+                <h3>院线</h3>
+            </li>
+            <li class="icon-font" ui-sref="search">&#xe64e;</li>
+        </ul>
+    </header>
+    <div class="t_content">
+        <div class="t_pic"><img ng-src={{main.cover}}></div>
+        <div class="iScroll" id="wrapper">
+        <ul class="t_ul">
+            <li ng-repeat="item in main['movie_theater']" ui-sref="content({name:$index})" ng-click="alert(1)">
+                <p><span class="t_li_t">{{item.name}}（{{item.address}}）<span class="t_li_pri">{{item['Starting price']}}元起</span></span><span class="t_li_lin">{{item.distance}}KM</span></p>
+                <p><span ng-repeat="its in item.discount">{{its}}</span></p>
+                <p>电话：{{item.Telephone}}</p>
+                <p><span>地址：{{item['detailed address']}}</span><span><img ng-src="images/GPS@3x.png">定位</span><span><img ng-src="images/d2.jpg">收藏</span></p>
+            </li>
+        </ul>
+        </div>
+    </div>
+</div>

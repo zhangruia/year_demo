@@ -1,0 +1,113 @@
+@import "../libs/comment.css";
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #b5b5b5;
+}
+.favorable-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    background:#1a1a1a;
+}
+.favorable-header {
+    height:.45rem;
+    line-height: .45rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding:0 .1rem;
+    font-size: .16rem;
+}
+.favorable-header i{
+    position: absolute;
+    left: .1rem;
+}
+.favorable-main{
+    flex: 1;
+    background:#313131 ;
+    padding: 0.15rem 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.favorable-main-top{
+    height:.5rem;
+    line-height: .5rem;
+    background:#252525 ;
+    padding:0 .1rem;
+}
+.favorable-main-top input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.favorable-main-top i{
+    float:right;
+}
+.favorable-main-top input{
+    color: #e0e0e0;
+}
+.favorable-main-top  ::-webkit-input-placeholder{
+    color: #e0e0e0;
+
+}
+.favorable-main-top input:-moz-placeholder{
+    color: #e0e0e0;
+}
+.favorable-main-wrap{
+   flex: 1;
+   background:#313131 ;
+    overflow-y: auto;
+}
+.favorable-main-box{
+    height: 1.21rem;
+    margin-top: .17rem;
+    position: relative;
+}
+.favorable-left{
+    position: absolute;
+    left: .1rem;
+    top:.05rem;
+    width:35%;
+    height: 1.11rem;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 1;
+    color: #f8b026;
+    font-size: .27rem;
+    text-align: center;
+    line-height: 1.11rem;
+
+}
+.favorable-right-back{
+    position: absolute;
+    right:.1rem;
+    width:66%;
+    height: 100%;
+    background:#cf8711;
+    border-radius: 32px 5px 5px 32px;
+    z-index: 0;
+    box-sizing: border-box;
+    padding-left: .23rem;
+}
+.favorable-right-con{
+    background:#f8b125 ;
+    height: 100%;
+    border-radius:5px;
+    padding-left: 10%;
+    color: #fff;
+}
+.favorable-right-con h2{
+    font-size: .16rem;
+
+    padding: .1rem 0;
+}
+.favorable-right-con p{
+    line-height:.21rem ;
+}

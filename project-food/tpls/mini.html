@@ -1,0 +1,62 @@
+<div class="mini">
+	<header>
+		<ul>
+			<li><img ng-src="images/m1.jpg" alt=""></li>
+			<li ng-click="uiSref()">{{text}}</li>
+			<li class="icon-font">&#xe608;</li>
+		</ul>
+	</header>
+	<section>
+		<div class="list">
+			<ul>
+				<li>
+					<i class="icon-font">&#xe667;</i><br>
+					<span>喜欢</span><b>(20)</b>
+				</li>
+				<li>
+					<i class="icon-font">&#xf0042;</i><br>
+					<span>评论</span><b>(30)</b>
+				</li>
+				<li>
+					<i class="icon-font">&#xe63b;</i><br>
+					<span>发现</span><b>(50)</b>
+				</li>
+				<li>
+					<i class="icon-font">&#xe625;</i><br>
+					<span>话题</span><b>(60)</b>
+				</li>
+			</ul>
+		</div>
+		<div class="item">
+			<ul>
+				<li ui-sref="message">
+					<span>我的消息</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+				<li>
+					<span>会员中心</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+				<li>
+					<span>优惠券</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+				<li>
+					<span>我的订单</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+				<li ui-sref="wallet">
+					<span>我的钱包</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+				<li>
+					<span ui-sref="setting">设置</span>
+					<b class="icon-font">&#xe608;</b>
+				</li>
+			</ul>
+			<div class="btn" ng-if=" text != '立即登录' " ng-click=" outlogin() ">
+				<p>退出登录</p>
+			</div>			
+		</div>
+	</section>
+</div>

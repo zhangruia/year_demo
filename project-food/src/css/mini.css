@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import "../libs/comment.css";
+.mini {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -webkit-flex: 1;
+  flex: 1; }
+  .mini header {
+    height: 0.6rem;
+    background: #1a1a1a; }
+    .mini header ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      color: #cdcdcd;
+      font-size: .16rem; }
+      .mini header ul li {
+        line-height: 0.6rem; }
+        .mini header ul li:nth-child(1) {
+          width: 0.4rem;
+          height: 0.4rem;
+          padding: 0.1rem 0.2rem; }
+          .mini header ul li:nth-child(1) img {
+            width: 100%;
+            height: 100%; }
+        .mini header ul li:nth-child(3) {
+          position: absolute;
+          right: 0.2rem; }
+  .mini .icon-font {
+    font-family: "iconfont"; }
+  .mini section {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -webkit-flex: 1;
+    flex: 1;
+    background: #313131;
+    padding: 0 0.08rem; }
+    .mini section .list {
+      height: 0.73rem;
+      background: #272727;
+      margin-bottom: 0.15rem; }
+      .mini section .list ul {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -o-flex;
+        display: -ms-flex;
+        display: flex;
+        height: 100%; }
+        .mini section .list ul li {
+          -webkit-flex: 1;
+          flex: 1;
+          font-size: 0.14rem;
+          color: #fff;
+          text-align: center; }
+          .mini section .list ul li i, .mini section .list ul li b, .mini section .list ul li span {
+            display: inline-block; }
+          .mini section .list ul li i {
+            padding: 0.06rem 0;
+            font-size: 0.26rem; }
+          .mini section .list ul li b {
+            color: #fef300; }
+    .mini section .item {
+      height: 100%;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      overflow-y: auto; }
+      .mini section .item ul li {
+        height: 0.56rem;
+        line-height: 0.56rem;
+        color: #ececec;
+        margin-bottom: 2px;
+        background: #272727;
+        font-size: 0.16rem;
+        position: relative;
+        padding-left: 0.16rem; }
+        .mini section .item ul li b {
+          position: absolute;
+          right: 0.13rem; }
+      .mini section .item .btn {
+        -webkit-flex: 1;
+        flex: 1;
+        background: #272727;
+        padding: 0.2rem 0.14rem 0 0.14rem; }
+        .mini section .item .btn p {
+          font-size: 0.2rem;
+          width: 100%;
+          height: 0.5rem;
+          line-height: 0.5rem;
+          text-align: center;
+          border-radius: 8px;
+          background: #f3e519;
+          color: #000; }
+
+/*# sourceMappingURL=mini.css.map */

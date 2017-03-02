@@ -1,0 +1,113 @@
+@import "../libs/comment.css";
+
+.info-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background:#1a1a1a;
+}
+@font-face {
+    font-family: "iconfont";
+    src: url("../../images/iconfont/iconfont.ttf"), url("../../images/iconfont/iconfont.woff"); }
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position:absolute;
+    left: .1rem;
+    color: #b5b5b5;
+}
+.info-header{
+    height: .44rem;
+    line-height: .44rem;
+    padding: 0 .1rem;
+    position: relative;
+    text-align: center;
+}
+.info-header span{
+    width: 100%;
+    float: left;
+    font-size: .16rem;
+    color: #fff;
+}
+.info-main{
+    background: #313131;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 .1rem;
+    overflow-y: auto;
+}
+.info-list{
+    padding: .2rem 0;
+    display: flex;
+    border-bottom:1px solid #464646;
+}
+
+.info-list-left{
+    width: 1rem;
+    height: .75rem;
+}
+.info_pic{
+    float: left;
+    width: 1rem;
+    height: .75rem;
+}
+.info-list-left img{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.info-list-right{
+    flex: 1;
+    box-sizing: border-box;
+    margin-left: .2rem;
+    position: relative;
+}
+.info-list-right h2{
+    line-height: .2rem;
+    color: #fff;
+    font-size: .14rem;
+}
+.info-list-right div{
+    position: absolute;
+    bottom:.05rem;
+    width: 100%;
+    color: #c1c1c1;
+}
+.info-list-right div p{
+    font-size: .12rem;
+    height: .3rem;
+    line-height: .30rem;
+}
+.info-list-right div p:first-child{
+    float: left;
+}
+.info-list-right div p:last-child{
+    float: right;
+    color:#f5e619;
+}
+.info-list-right div p:last-child span{
+    padding-left:.1rem;
+    line-height: .3rem;
+    float: left;
+}
+.info-list-right div p:last-child span:last-child em{
+    display: inline-block;
+    width: .2rem;
+    height: .13rem;
+    margin-right: .05rem;
+}
+.info-list-right div p:last-child span:first-child em{
+    display: inline-block;
+    width: .14rem;
+    height: .16rem;
+    margin-right: .05rem;
+}
+.info-list-right div p img{
+    height:100%;
+    width: 100%;
+}

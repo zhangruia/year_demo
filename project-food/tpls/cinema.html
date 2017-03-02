@@ -1,0 +1,21 @@
+<div class="cinema">
+	<header>
+		<ul>
+			<li class="icon-font" ui-sref="city">{{cityName}} <span>&#xe662;</span></li>
+			<li>
+				<a ui-sref="index.cinema.hot"    ng-class=" {'active' : class( 'hot' ) } ">最热</a>
+				<a ui-sref="index.cinema.order"  ng-class=" {'active' : class('order') } ">预约</a>
+				<a ui-sref="index.cinema.foreign"  ng-class=" {'active' : class( 'foreign' ) } ">国外</a>
+			</li>
+			<li class="icon-font" ui-sref="search">&#xe64e;</li>
+		</ul>
+	</header>
+	<div class="pics swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img ng-src="images/a1.jpg" alt=""></div>
+			<div class="swiper-slide"><img ng-src="images/a2.jpg" alt=""></div>
+			<div class="swiper-slide"><img ng-src="images/a3.jpg" alt=""></div>
+		</div>
+	</div>
+	<ui-view class="flx"></ui-view>
+</div>

@@ -1,0 +1,149 @@
+@import "../libs/comment.css";
+
+.theate {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  /*
+  .t_header{
+    height: 50px;
+    background: #1a1a1a;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    .local{
+      position: absolute;
+      height: 50px;
+      line-height: 50px;
+      left: 3%;
+    }
+    h3{
+      width: 100%;
+      line-height: 50px;
+      text-align: center;
+    }
+    .t_search{
+      position: absolute;
+      top: 18%;
+      right: 3%;
+      img{
+        height: 30px;
+      }
+    }
+  }
+  */ }
+  .theate header {
+    height: 0.5rem;
+    background: #1a1a1a; }
+    .theate header ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      color: #fff;
+      font-size: .15rem;
+      position: relative;
+      }
+      .theate header ul li {
+        line-height: 0.5rem; }
+        .theate header ul li:nth-child(1) {
+          width: 0.7rem;
+          text-align: center;
+          position: absolute;
+          left: 0;
+          top: 0;
+          padding-top: 0;
+        }
+        .theate header ul li:nth-child(2) {
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -o-flex;
+          display: -ms-flex;
+          display: flex;
+          width: 100%;
+          height: 100%;
+          margin: 0px auto 0 auto;
+          border-radius: 6px;
+          overflow: hidden; }
+          .theate header ul li:nth-child(2) h3 {
+            -webkit-flex: 1;
+            flex: 1;
+            height: 0.5rem;
+            color: #fff;
+            line-height: 0.5rem;
+            display: inline-block;
+            text-align: center;
+            font-size: 0.16rem; }
+        .theate header ul li:nth-child(3) {
+          position: absolute;
+          right: 0;
+          width: 0.5rem;
+          text-align: center; }
+  .theate .icon-font {
+    font-family: "iconfont"; }
+  .theate .t_content {
+    width: 100%;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    background: #313131; }
+    .theate .iScroll{
+      -webkit-flex: 1;
+      flex: 1;
+      overflow: hidden;
+    }
+    .theate .t_content .t_pic {
+      width: 100%;
+      height: 1rem; }
+      .theate .t_content .t_pic img {
+        width: 100%;
+        height: 100%; }
+    .theate .t_content .t_ul {
+      width: 100%;
+      -webkit-flex: 1;
+      flex: 1; }
+      .theate .t_content .t_ul li {
+        box-sizing: border-box;
+        padding: .18rem .1rem;
+        border-bottom: 1px solid #464646; }
+        .theate .t_content .t_ul li p {
+          clear: both;
+          line-height: .26rem;
+          font-size: .12rem;
+          color: #fff; }
+        .theate .t_content .t_ul li p:nth-of-type(1) .t_li_t {
+          float: left; }
+        .theate .t_content .t_ul li p:nth-of-type(1) .t_li_pri {
+          color: #F8AF25;
+          padding-left: 5px; }
+        .theate .t_content .t_ul li p:nth-of-type(1) .t_li_lin {
+          float: right; }
+        .theate .t_content .t_ul li p:nth-of-type(2) span {
+          width: 2.8rem;
+          height: 1.3rem;
+          color: #F5E219;
+          border: 1px solid #F5E219;
+          border-radius: 10%;
+          padding: 1px 5px;
+          margin-right: 5px; }
+        .theate .t_content .t_ul li p:nth-of-type(3), .theate .t_content .t_ul li p:nth-of-type(4) {
+          color: #d8d8d8; }
+          .theate .t_content .t_ul li p:nth-of-type(3) span, .theate .t_content .t_ul li p:nth-of-type(4) span {
+            padding-right: 10px; }
+            .theate .t_content .t_ul li p:nth-of-type(3) span img, .theate .t_content .t_ul li p:nth-of-type(4) span img {
+              width: 12px;
+              margin-right: 3px; }

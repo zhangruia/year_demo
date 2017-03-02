@@ -1,0 +1,125 @@
+@import "../libs/comment.css";
+.container
+{
+    width:100%;
+    height:100%;
+    font-size: 0.16rem;
+    background: #272727;
+}
+.container .y_warp
+{
+    width:100%;
+    height:100%;
+    overflow-y: auto;
+}
+.pic
+{
+    width:100%;
+}
+.pic li img
+{
+    width:100%;
+    height:100%;
+    float: left;
+}
+.cla
+{
+    height:0.5rem;
+    line-height:0.5rem;
+    background: #313131;
+    color: #fff;
+    padding-left:0.08rem;
+    font-size: 0.2rem;
+}
+.anima
+{
+    width:100%;
+    height:0.6rem;
+    display: -webkit-flex;
+}
+.anima li
+{
+    height:100%;
+    width:100%;
+    flex-direction: row;
+    -webkit-flex: 1;
+    text-align: center;
+}
+.anima li img
+{
+    width:88%;
+    height:100%;;
+}
+.top
+{
+    width:100%;
+    height:0.5rem;
+    line-height:0.5rem;
+    background: #313131;
+    color: #fff;
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+}
+.top b
+{
+    -webkit-flex: 1;
+}
+.top b:nth-child(1)
+{
+    padding-left: 0.1rem;
+}
+.top i
+{
+    padding:0.05rem 0.03rem;
+}
+.top i:nth-child(1)
+{
+    border-radius: 0 0.05rem 0.05rem 0;
+}
+.top i:nth-child(2)
+{
+    border-radius: 0.08rem 0 0 0.08rem;
+}
+.top b span:nth-child(1)
+{
+    padding-right: 0.02rem;
+}
+
+/*近期上映的日期的效果*/
+.active
+{
+    background: yellow;
+    color: #000;
+}
+.outer
+{
+    background: #464646;
+}
+/*近期上映的电影*/
+.every
+{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.every li
+{
+    width:25%;
+    float: left;
+    padding:0.1rem 0.06rem;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.every li img
+{
+    width: 100%;
+    height: 100%;
+}
+.every li span
+{
+    font-size:0.11rem;
+    display: inline-block;
+    color: #fff;
+}

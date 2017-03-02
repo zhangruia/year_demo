@@ -1,0 +1,36 @@
+<div class="login">
+	<div class="log">
+		<div class="form">
+			<p>
+				<span class="icon-font">&#xe60a;</span>
+				<input type="text" placeholder="请输入手机号" ng-model="tell" >
+			</p>
+			<p class="p2">
+				<span class="icon-font">&#xe63a;</span>
+				<input type="text" placeholder="请输入验证码" ng-model="Verifications" class="pos">
+				<button ng-click="btn()">{{butVal}}</button>
+			</p>
+		</div>
+		<div class="btn">
+			<p ng-click="login()">登录</p>
+			<ol><li>忘记密码？</li><li ui-sref="addin">立即注册</li></ol>
+		</div>
+		<div class="third">
+			<p>-----  第三方登录  -----</p>
+			<ul>
+				<li>
+					<i class="icon-font">&#xe675;</i>
+					<b>微信登录</b>
+				</li>
+				<li>
+					<i class="icon-font">&#xe63f;</i>
+					<b>新浪登录</b>
+				</li>
+				<li>
+					<i class="icon-font">&#xe668;</i>
+					<b>QQ登录</b>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

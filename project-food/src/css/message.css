@@ -1,0 +1,78 @@
+@import "../libs/comment.css";
+.warp
+{
+    width:100%;
+    height:100%;
+}
+.warp .message
+{
+    width:100%;
+    height:0.5rem;
+    background: #1A1A1A;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height:0.5rem;
+    display: -webkit-flex;
+}
+.warp .message li
+{
+    flex-direction: row;
+    -webkit-flex: 1;
+}
+.warp .message li:nth-child(1)
+{
+    padding-left: 0.1rem;
+    font-family:"iconfont";
+}
+.warp .message li:nth-child(2)
+{
+    text-align: center;
+}
+.warp .msgson
+{
+    width:100%;
+    height:100%;
+    background: #313131;
+}
+.warp .msgson ul
+{
+    width:100%;
+    height:100%;
+    display: -webkit-flex;
+}
+.warp .msgson ul li
+{
+    flex-direction:row;
+    -webkit-flex: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.warp .msgson ul li span
+{
+    display: inline-block;
+    font-family:"iconfont";
+    font-size: 0.4rem;
+    line-height:0.72rem;
+    width:0.72rem;
+    height:0.72rem;;
+    border-radius: 100%;
+    text-align: center;
+}
+.warp .msgson ul li:nth-child(1) span
+{
+    background: #79BBF5;
+}
+.warp .msgson ul li:nth-child(2) span
+{
+    background: #FFCC66;
+}
+.warp .msgson ul li:nth-child(3) span
+{
+    background: #F68B67;
+}
+.warp .msgson ul li i
+{
+    display: block;
+    font-size: 0.16rem;
+}

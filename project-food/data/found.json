@@ -1,0 +1,30 @@
+{
+  "new inquiry": {
+    "title": "电影达到100亿刀，你出了多少刀？",
+    "img": [
+      "./images/d8.jpg",
+      "./images/d9.jpg",
+      "./images/d10.jpg"
+    ],
+    "instructions": {
+      "img": "./images/d11.jpg",
+      "main": "队长看电影",
+      "praise": 300,
+      "leave a message": 200
+    }
+  },
+  "hot inquiry": {
+    "title": "结合漫画和电影，告诉你美队使啥样的？",
+    "img": [
+      "./images/d12.jpg",
+      "./images/d13.jpg",
+      "./images/d14.jpg"
+    ],
+    "instructions": {
+      "img": "./images/m1.jpg",
+      "main": "笑谈人参",
+      "praise": 250,
+      "leave a message": 999
+    }
+  }
+}

@@ -1,0 +1,228 @@
+@import "../libs/comment.css";
+
+.icon-font {
+    font-family: "iconfont";
+}
+
+.theaterC {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+}
+
+header {
+    height: 0.5rem;
+    background: #1a1a1a;
+}
+
+header ul {
+    position: relative;
+    color: #fff;
+    font-size: .15rem;
+}
+
+header ul li {
+    line-height: 0.5rem;
+}
+
+header ul li:nth-child(1) {
+    position: absolute;
+    width: 0.5rem;
+    text-align: center;
+    padding-top: .06rem;
+}
+
+header ul li:nth-child(1) img {
+    width: .25rem;
+}
+
+header ul li:nth-child(2) {
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+header ul li:nth-child(2) h3 {
+    width: 100%;
+    height: .5rem;
+    color: #fff;
+    line-height: .5rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.16rem;
+}
+
+.tC_content {
+    font-size: .15rem;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    color: #fff;
+    background: #313131;
+    overflow: auto;
+}
+
+.tC_content .tC_top {
+    background: #272727;
+    padding: .1rem;
+    margin: .15rem 0;
+}
+
+.tC_content .tC_top .tC_t_tit {
+    height: .5rem;
+    border-bottom: 1px solid #3d3d3d;
+    position: relative;
+    box-sizing: content-box;
+    padding-bottom: .06rem;
+}
+
+.tC_content .tC_top .tC_t_tit .t_tit_grade {
+    color: #F5B024;
+}
+
+.tC_content .tC_top .tC_t_tit .t_tit_rA {
+    position: absolute;
+    right: .05rem;
+    top: .12rem;
+}
+
+.tC_content .tC_top .tC_t_tit .t_tit_rA img {
+    width: .16rem;
+}
+
+.tC_content .tC_top .tC_t_tit .t_tit_tip {
+    margin-top: .08rem;
+}
+
+.tC_content .tC_top .tC_t_tit .t_tit_tip span {
+    padding: .02rem;
+    font-size: .12rem;
+    float: left;
+    width: .55rem;
+    height: .18rem;
+    text-align: center;
+    line-height: .18rem;
+    color: #F4E51A;
+    border: 1px solid #F4E51A;
+    border-radius: 10%;
+    margin-right: .06rem;
+}
+
+.tC_content .tC_top .tC_t_con {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+}
+
+.tC_content .tC_top .tC_t_con .con_loc {
+    height: .46rem;
+    line-height: .46rem;
+}
+
+.tC_content .tC_top .tC_t_con ul {
+    height: 1.65rem;
+    overflow: auto;
+    width: auto;
+}
+
+.tC_content .tC_top .tC_t_con ul li {
+    float: left;
+    padding: .05rem;
+    height: 100%;
+    width: 1rem!important;
+}
+
+.tC_content .tC_top .tC_t_con ul li p {
+    font-size: .12rem;
+    line-height: .2rem;
+}
+
+.tC_content .tC_top .tC_t_con ul li p:nth-of-type(2) {
+    color: #B3B3B3;
+    font-size: .12rem;
+}
+
+.tC_content .tC_top .tC_t_con ul li img {
+    width: 90%;
+}
+
+.tC_content .t_List {
+    background: #272727;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    overflow: hidden;
+}
+.iScroll{
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden;
+}
+
+.tC_content .t_List ol {
+    width: 100%;
+    height: .3rem;
+    line-height: .3rem;
+    border-bottom: 1px solid #313131;
+}
+
+.tC_content .t_List ol li {
+    float: left;
+    width: 33.3%;
+    height: .3rem;
+    line-height: .3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.tC_content .t_List ol li.active {
+    color: #FAAE25;
+    border-bottom: 1px solid #FAEE25;
+}
+
+.tC_content .t_List ul {
+    width: 100%;
+}
+
+.tC_content .t_List ul li {
+    height: .36rem;
+    line-height: .36rem;
+    color: #fff;
+}
+
+.tC_content .t_List ul li div {
+    width: 33%;
+    height: .36rem;
+    text-align: center;
+    float: left;
+}
+
+.tC_content .t_List ul li div:nth-of-type(3) span {
+    line-height: .28rem;
+    display: block;
+    margin: .03rem auto;
+    width: 60%;
+    height: 80%;
+    border: 1px solid #F4E51A;
+    border-radius: 10%;
+    color: #F4E51A;
+}

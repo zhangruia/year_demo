@@ -1,0 +1,180 @@
+{
+  "name": "abroad && 国外",
+  "rollImg": [
+    "./images/a1.jpg",
+    "./images/a2.jpg",
+    "./images/a3.jpg"
+  ],
+  "of abroad": {
+    "美国": [
+      {
+        "pic": "./images/b1.jpg",
+        "title": "哭声",
+        "content": "悬疑，惊悚大戏精彩上演",
+        "type": "经典大戏等你来",
+        "actor": "安吉-古拉斯",
+        "effect": [
+          "3D"
+        ],
+        "point": "9.0分"
+      },
+      {
+        "pic": "./images/b2.jpg",
+        "title": "内地票房终于破十亿！",
+        "content": "美队3之后，请看魔兽"
+      },
+      {
+        "pic": "./images/b3.jpg",
+        "title": "美国队长3",
+        "content": "铁人打美队，群雄来战队",
+        "type": "经典复仇大戏",
+        "actor": "安吉丽娜·朱莉",
+        "effect": [
+          "3D"
+        ],
+        "point": "9.0分"
+      },
+      {
+        "pic": "./images/a7.jpg",
+        "title": "超脑48小时",
+        "content": "世纪罪犯、换脑行动",
+        "type": "经典动作大戏",
+        "actor": "瑞恩·雷诺兹，凯文·科斯特纳",
+        "effect": [
+        ],
+        "point": "8.5分"
+      },
+      {
+        "pic": "./images/a5.jpg",
+        "title": "分歧者3",
+        "content": "铁人分歧者，群雄来战斗",
+        "type": "经典复仇大戏",
+        "actor": "李美琪、詹姆斯",
+        "effect": [
+          "3D",
+          "大陆待映"
+        ],
+        "point": "8.7分"
+      },
+      {
+        "pic": "./images/a6.jpg",
+        "title": "百鸟朝凤",
+        "content": "两大手艺人，唢呐感情深",
+        "type": "经典情感大戏",
+        "actor": "李雪健",
+        "effect": [],
+        "point": "8.0分"
+      }
+    ],
+    "英国": [
+      {
+        "pic": "./images/b1.jpg",
+        "title": "哭声",
+        "content": "悬疑，惊悚大戏精彩上演",
+        "type": "经典大戏等你来",
+        "actor": "安吉-古拉斯",
+        "effect": [
+          "3D"
+        ],
+        "point": "9.1分"
+      },
+      {
+        "pic": "./images/b3.jpg",
+        "title": "美国队长3",
+        "content": "铁人打美队，群雄来战队",
+        "type": "经典复仇大戏",
+        "actor": "安吉丽娜·朱莉",
+        "effect": [
+          "3D"
+        ],
+        "point": "9.0分"
+      },
+      {
+        "pic": "./images/a6.jpg",
+        "title": "百鸟朝凤",
+        "content": "两大手艺人，唢呐感情深",
+        "type": "经典情感大戏",
+        "actor": "李雪健",
+        "effect": [],
+        "point": "8.7分"
+      },
+      {
+        "pic": "./images/a5.jpg",
+        "title": "分歧者3",
+        "content": "铁人分歧者，群雄来战斗",
+        "type": "经典复仇大戏",
+        "actor": "李美琪、詹姆斯",
+        "effect": [
+          "3D",
+          "大陆待映"
+        ],
+        "point": "8.7分"
+      },
+      {
+        "pic": "./images/a7.jpg",
+        "title": "超脑48小时",
+        "content": "世纪罪犯、换脑行动",
+        "type": "经典动作大戏",
+        "actor": "瑞恩·雷诺兹，凯文·科斯特纳",
+        "effect": [
+        ],
+        "point": "8.5分"
+      }
+    ],
+    "其他": [
+      {
+        "pic": "./images/b3.jpg",
+        "title": "美国队长3",
+        "content": "铁人打美队，群雄来战队",
+        "type": "经典复仇大戏",
+        "actor": "安吉丽娜·朱莉",
+        "effect": [
+          "3D"
+        ],
+        "point": "8.9分"
+      },
+      {
+        "pic": "./images/b1.jpg",
+        "title": "哭声",
+        "content": "悬疑，惊悚大戏精彩上演",
+        "type": "经典大戏等你来",
+        "actor": "安吉-古拉斯",
+        "effect": [
+          "3D"
+        ],
+        "point": "8.8分"
+      },
+      {
+        "pic": "./images/a5.jpg",
+        "title": "分歧者3",
+        "content": "铁人分歧者，群雄来战斗",
+        "type": "经典复仇大戏",
+        "actor": "李美琪、詹姆斯",
+        "effect": [
+          "3D",
+          "大陆待映"
+        ],
+        "point": "8.7分"
+      },
+      {
+        "pic": "./images/a6.jpg",
+        "title": "百鸟朝凤",
+        "content": "两大手艺人，唢呐感情深",
+        "type": "经典情感大戏",
+        "actor": "李雪健",
+        "effect": [],
+        "point": "8.7分"
+      },
+      {
+        "pic": "./images/a7.jpg",
+        "title": "超脑48小时",
+        "content": "世纪罪犯、换脑行动",
+        "type": "经典动作大戏",
+        "actor": "瑞恩·雷诺兹，凯文·科斯特纳",
+        "effect": [
+        ],
+        "point": "7.5分"
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+@import "../libs/comment.css";
+img
+{
+    width:100%;
+    height:100%;
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    color: #b5b5b5;
+}
+.movelib-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background:#1a1a1a;
+
+}
+/*头部start*/
+.movelib-header{
+    height: .5rem;
+    line-height: .5rem;
+    position: relative;
+}
+.movelib-header i
+{
+    position: absolute;
+    padding-left:0.1rem;
+}
+.movelib-header span{
+    font-size: .16rem;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+/*头部end*/
+.movelib-main{
+    background: #313131;
+    overflow-y: auto;
+}
+.movelib-logo{
+    height:1.7rem;
+    width: 100%;
+}
+.movelib-logo img{
+    height:100%;
+    width: 100%;
+}
+.movelib-list-wrap{
+    box-sizing:border-box;
+    padding:0 .1rem;
+}
+.movelib-list-wrap ul{
+    background:#242424;
+    display:flex;
+    margin-top: .23rem;
+}
+
+.movelib-list-wrap ul li:not(:nth-child(2)){
+    box-sizing: border-box;
+    display: flex;
+    width:47%;
+    background:#242424;
+    padding:.15rem 4%;
+}
+.movelib-list-wrap ul li:nth-child(2){
+    flex: 1;
+    background:#313131 !important;
+}
+
+.movelib-list-wrap ul li:last-child{
+
+}
+.movelib-list-wrap ul li p{
+    font-size: .12rem;
+    float: left;
+}
+
+.movelib-list-wrap ul li p span{
+    display: block;
+    line-height: .2rem;
+    color:#b5b5b5 ;
+}
+.movelib-list-wrap ul li p span:first-child{
+    color: #f3e519;
+}
+.movelib-list-wrap ul li p:first-child{
+    padding-top: .15rem;
+    flex: 1;
+}
+.movelib-list-wrap ul li p:last-child{
+    width: .5rem;
+    height: .62rem;
+    float: right;
+}
+.movelib-list-wrap ul li p:last-child img{
+    height: 100%;
+    width: 100%;
+}
+
+.movelib-spl{
+    margin: 0 .1rem;
+    background:#242424 ;
+    margin-top: .23rem;
+    padding:.16rem;
+    padding-bottom: 0;
+    overflow-x:hidden ;
+}
+.movelib-spl h2{
+    color: #f5e617;
+}
+.movelib-spl-img{
+    display: flex;
+    margin-top: .14rem;
+}
+.movelib-spl-img dl:not(:first-child){
+    padding-left:5%;
+}
+.movelib-spl-img dl dt{
+    width: .98rem;
+    height: 1.26rem;
+}
+.movelib-spl-img dl dt img{
+    height: 100%;
+    width: 100%;
+}
+.movelib-spl-img dl dd{
+    font-size: .12rem;
+    color: #fff;
+    line-height:.3rem ;
+}
+.movelib-spl-img dl dd span{
+    float: right;
+    color:#c78d22;
+}
+
+
+

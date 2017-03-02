@@ -1,0 +1,105 @@
+@import "../libs/comment.css";
+.icon-font {
+  font-family: "iconfont";
+}
+.cinema {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column; }
+  .cinema header {
+    height: 0.5rem;
+    background: #1a1a1a; }
+    .cinema header ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      color: #fff;
+      font-size: .15rem;
+      position: relative;
+    }
+      .cinema header ul li {
+        box-sizing: border-box;
+        line-height: .5rem;
+        height: .5rem;
+      }
+        .cinema header ul li:nth-child(1) {
+          width: .7rem;
+          text-align: center;
+          position: absolute;
+          padding-top: 0;
+          left: 0;
+          top: 0;
+        }
+        .cinema header ul li:nth-child(2) {
+          -webkit-flex: 1;
+          flex: 1;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -o-flex;
+          display: -ms-flex;
+          display: flex;
+          height: .33rem;
+          margin: .08rem .7rem;
+          background: #313131;
+          border-radius: .08rem;
+          overflow: hidden; }
+          .cinema header ul li:nth-child(2) a {
+            -webkit-flex: 1;
+            flex: 1;
+            height: 100%;
+            color: #cdcdcd;
+            line-height: .34rem;
+            display: inline-block;
+            text-align: center;
+            font-size: 0.17rem;
+            font-weight: 600; }
+            .cinema header ul li:nth-child(2) a.active {
+              background: #f3e519;
+              color: #1a1a1a;
+              font-weight: 400; }
+        .cinema header ul li:nth-child(3) {
+          width: 16%;
+          text-align: center;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+  .cinema .pics {
+    width: 100%;
+    height: 0.78rem;
+    position: relative;
+    overflow: hidden; }
+    .cinema .pics .swiper-wrapper {
+      width: 300%;
+      height: 100%;
+      position: absolute;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: flex; }
+      .cinema .pics .swiper-wrapper .swiper-slide {
+        -webkit-flex: 1;
+        flex: 1;
+        height: 100%; }
+        .cinema .pics .swiper-wrapper .swiper-slide img {
+          width: 100%;
+          height: 100%;
+          float: left; }
+  .cinema ui-view {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: hidden; }
+
+/*# sourceMappingURL=head.css.map */

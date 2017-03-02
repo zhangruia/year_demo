@@ -1,0 +1,46 @@
+<div class="theaterC">
+    <header>
+        <ul>
+            <li ui-sref="index.theate"><img ng-src="./images/back@3x.png" alt=""></li>
+            <li><h3>{{main.name}}({{main.address}})</h3></li>
+        </ul>
+    </header>
+    <div class="tC_content">
+        <div class="tC_top">
+            <div class="tC_t_tit" ui-sref="more({name:idx})">
+                <p><span>{{main.name}}({{main.address}})</span><span class="t_tit_grade">8.0分</span><span class="t_tit_rA"><img ng-src="./images/right@3x.png"></span></p>
+                <p class="t_tit_tip">
+                    <span ng-repeat="its in main.discount">{{its}}</span>
+                </p>
+            </div>
+            <div class="tC_t_con">
+                <p class="con_loc">地址：{{main['detailed address']}}</p>
+                <div class="swipers pics">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide" ng-repeat="ita in main.film" ng-click="changeimg( $index )">
+                        <img ng-src="{{ita.img}}">
+                        <p>{{ita.film_name}}</p>
+                        <p>{{ita.want}}人想看</p>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="t_List">
+            <ol>
+                <li ng-class=" {'active' : active[0] }" ng-click="changeA(0)">5月17日</li>
+                <li ng-class=" {'active' : active[1]}" ng-click="changeA(1)">5月18日</li>
+                <li ng-class="{ 'active' : active[2]}" ng-click="changeA(2)">5月19日</li>
+            </ol>
+            <div id="wrapper" class="iScroll">
+            <ul>
+                <li ng-repeat="tim in timeS">
+                    <div>{{tim.startTime}}</div>
+                    <div>{{tim.price}}元</div>
+                    <div><span>特价</span></div>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
